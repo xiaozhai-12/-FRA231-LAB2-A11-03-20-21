@@ -1,0 +1,289 @@
+2024-12-21 18:13:19,018 DEBUG [WB_to_MX.lambda$run_gui_mode$0] Arguments: [-mx_timeout, -1, -pack, assets/MotorControlPack/MotorControl.zip, -exp, templates/wb-defines_where_and_what.txt, -ftl, templates/wb_ioc_template.ftl, -xdm, C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.wbdef, -ioc, C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc]
+2024-12-21 18:13:19,019 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[ftl]: templates/wb_ioc_template.ftl
+2024-12-21 18:13:19,020 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[exp]: templates/wb-defines_where_and_what.txt
+2024-12-21 18:13:19,020 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[xdm]: C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.wbdef
+2024-12-21 18:13:19,020 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[ioc]: C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc
+2024-12-21 18:13:19,020 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[pack]: assets/MotorControlPack/MotorControl.zip
+2024-12-21 18:13:19,021 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[mx_timeout]: -1
+2024-12-21 18:13:19,021 DEBUG [ArgsValue.retrieve] {xdm=C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.wbdef, updftl=templates/wb_ioc_mc-middleware.ftl, mx_timeout=-1, exp=templates/wb-defines_where_and_what.txt, ioc=C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc, pack=assets/MotorControlPack/MotorControl.zip, ftl=templates/wb_ioc_template.ftl}
+2024-12-21 18:13:19,052 DEBUG [WB_to_MX.run] Targeted MCU family = G4
+2024-12-21 18:13:19,057 DEBUG [WB_to_MX.run] Minimum associated CubeMx to the `6.0.0-a0` targeted MCU family is `G4`
+2024-12-21 18:13:22,410 DEBUG [EnvironmentChecker.checkPack] STM32CubeMX.Version: 6.12.0-RC9
+2024-12-21 18:13:22,413 DEBUG [RetrieveFirmwareVersion.from_zip] Trying to read Firmware version from zipped version Pack: C:\Users\thann\AppData\Local\STMicroelectronics\MC_SDK_6.3.2\Utilities\PC_Software\STMCWB\assets\MotorControlPack\MotorControl.zip
+2024-12-21 18:13:22,441 DEBUG [RetrieveFirmwareVersion.minimum_supporte_version] minimum_supporte_version MotorControlFirmware.Version: 6.3.0
+2024-12-21 18:13:22,441 DEBUG [PackInfoFactory.deploy_MCPack_to_MxRepo] Deployment strategy class: VersionedFolderStyle_MCPackDeployer
+2024-12-21 18:13:22,442 DEBUG [PackInfoFactory.deploy_MCPack_to_MxRepo] Expected MC Pack 6.3.2-Full already deployed
+2024-12-21 18:13:22,457 DEBUG [DataSetUpdater.update] Updating data set
+2024-12-21 18:13:22,457 DEBUG [DataSetUpdater.update] Update done
+2024-12-21 18:13:22,458 INFO  [IocGenerator.logModulesVersionInfo] Version info: 
+2024-12-21 18:13:22,472 INFO  [IocGenerator.logModulesVersionInfo]   MC Workbench       : 6.3.2
+2024-12-21 18:13:22,473 INFO  [IocGenerator.logModulesVersionInfo]   WB_to_Mx           : 6.2.3.template-24-04-17
+2024-12-21 18:13:22,474 INFO  [IocGenerator.logModulesVersionInfo]   STM32CubeMX        : 6.12.0
+2024-12-21 18:13:22,474 INFO  [IocGenerator.logModulesVersionInfo]   MC Firmware Library: 6.3.2-Full
+2024-12-21 18:13:22,475 INFO  [IocGenerator.logModulesVersionInfo] 
+Generation options: 
+2024-12-21 18:13:22,475 INFO  [IocGenerator.logModulesVersionInfo]   Target Toolchain   : ST STM32CubeIDE
+2024-12-21 18:13:22,475 INFO  [IocGenerator.logModulesVersionInfo]   Target Driver      : HAL - Hardware Abstraction Layer
+2024-12-21 18:13:22,476 INFO  [IocGenerator.logModulesVersionInfo]   Target STM32 FW    : 1.6.0
+
+2024-12-21 18:13:22,479 DEBUG [IocGenerator.process] C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc ioc file: Generating
+2024-12-21 18:13:22,480 DEBUG [IocGenerator.createOutput] Generating file from template templates\wb_ioc_template.ftl
+2024-12-21 18:13:24,188 DEBUG [IocGenerator.process] ioc file C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc Generated
+2024-12-21 18:13:24,197 INFO  [LineInfo_to_exitCode.log_LineInfo] C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc ioc: Generated
+2024-12-21 18:13:24,239 ERROR [Wb2MxProcess.copyExtraFolders] Fail to copy Extra folders
+2024-12-21 18:17:52,371 DEBUG [IOCDialogController.lambda$onClose$8] IOCGenerationDialog exists with return code 2
+2024-12-21 18:17:55,239 DEBUG [WB_to_MX.lambda$run_gui_mode$0] Arguments: [-mx_timeout, -1, -pack, assets/MotorControlPack/MotorControl.zip, -exp, templates/wb-defines_where_and_what.txt, -ftl, templates/wb_ioc_template.ftl, -xdm, C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.wbdef, -ioc, C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc]
+2024-12-21 18:17:55,239 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[ftl]: templates/wb_ioc_template.ftl
+2024-12-21 18:17:55,239 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[exp]: templates/wb-defines_where_and_what.txt
+2024-12-21 18:17:55,240 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[xdm]: C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.wbdef
+2024-12-21 18:17:55,240 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[ioc]: C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc
+2024-12-21 18:17:55,240 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[pack]: assets/MotorControlPack/MotorControl.zip
+2024-12-21 18:17:55,241 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[mx_timeout]: -1
+2024-12-21 18:17:55,241 DEBUG [ArgsValue.retrieve] {xdm=C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.wbdef, updftl=templates/wb_ioc_mc-middleware.ftl, mx_timeout=-1, exp=templates/wb-defines_where_and_what.txt, ioc=C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc, pack=assets/MotorControlPack/MotorControl.zip, ftl=templates/wb_ioc_template.ftl}
+2024-12-21 18:17:55,242 DEBUG [WB_to_MX.run] Targeted MCU family = G4
+2024-12-21 18:17:55,243 DEBUG [WB_to_MX.run] Minimum associated CubeMx to the `6.0.0-a0` targeted MCU family is `G4`
+2024-12-21 18:17:59,014 DEBUG [EnvironmentChecker.checkPack] STM32CubeMX.Version: 6.12.0-RC9
+2024-12-21 18:17:59,016 DEBUG [RetrieveFirmwareVersion.from_zip] Trying to read Firmware version from zipped version Pack: C:\Users\thann\AppData\Local\STMicroelectronics\MC_SDK_6.3.2\Utilities\PC_Software\STMCWB\assets\MotorControlPack\MotorControl.zip
+2024-12-21 18:17:59,027 DEBUG [RetrieveFirmwareVersion.minimum_supporte_version] minimum_supporte_version MotorControlFirmware.Version: 6.3.0
+2024-12-21 18:17:59,028 DEBUG [PackInfoFactory.deploy_MCPack_to_MxRepo] Deployment strategy class: VersionedFolderStyle_MCPackDeployer
+2024-12-21 18:17:59,028 DEBUG [PackInfoFactory.deploy_MCPack_to_MxRepo] Expected MC Pack 6.3.2-Full already deployed
+2024-12-21 18:17:59,042 DEBUG [DataSetUpdater.update] Updating data set
+2024-12-21 18:17:59,042 DEBUG [DataSetUpdater.update] Update done
+2024-12-21 18:17:59,043 INFO  [IocGenerator.logModulesVersionInfo] Version info: 
+2024-12-21 18:17:59,044 INFO  [IocGenerator.logModulesVersionInfo]   MC Workbench       : 6.3.2
+2024-12-21 18:17:59,044 INFO  [IocGenerator.logModulesVersionInfo]   WB_to_Mx           : 6.2.3.template-24-04-17
+2024-12-21 18:17:59,044 INFO  [IocGenerator.logModulesVersionInfo]   STM32CubeMX        : 6.12.0
+2024-12-21 18:17:59,045 INFO  [IocGenerator.logModulesVersionInfo]   MC Firmware Library: 6.3.2-Full
+2024-12-21 18:17:59,045 INFO  [IocGenerator.logModulesVersionInfo] 
+Generation options: 
+2024-12-21 18:17:59,047 INFO  [IocGenerator.logModulesVersionInfo]   Target Toolchain   : ST STM32CubeIDE
+2024-12-21 18:17:59,047 INFO  [IocGenerator.logModulesVersionInfo]   Target Driver      : HAL - Hardware Abstraction Layer
+2024-12-21 18:17:59,048 INFO  [IocGenerator.logModulesVersionInfo]   Target STM32 FW    : 1.6.0
+
+2024-12-21 18:17:59,048 DEBUG [IocGenerator.process] C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc ioc file: Generating
+2024-12-21 18:17:59,049 DEBUG [IocGenerator.createOutput] Generating file from template templates\wb_ioc_template.ftl
+2024-12-21 18:17:59,308 DEBUG [IocGenerator.process] ioc file C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc Generated
+2024-12-21 18:17:59,309 INFO  [LineInfo_to_exitCode.log_LineInfo] C:\Users\thann\OneDrive\Desktop\D\FRA231\LAB2\V3\V3.ioc ioc: Generated
+2024-12-21 18:17:59,310 ERROR [Wb2MxProcess.copyExtraFolders] Fail to copy Extra folders
+2024-12-21 18:18:01,796 DEBUG [IOCDialogController.lambda$onClose$8] IOCGenerationDialog exists with return code 2
+2024-12-21 18:18:14,472 INFO  [APIHelpers.getUserMotorsData] WB6 API: Start loading UserMotors from: C:\Users\thann\.st_motor_control\user_motors
+2024-12-21 18:18:14,478 INFO  [APIHelpers.getUserMotorsDataJson] WB6 API: Start loading UserMotors json from: C:\Users\thann\.st_workbench\hardware\motor
+2024-12-21 18:18:14,478 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: A2212_13T.json
+2024-12-21 18:18:14,495 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: A2212_13T.json
+2024-12-21 18:18:14,495 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: Allen Bradley-I.json
+2024-12-21 18:18:14,520 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: Allen Bradley-I.json
+2024-12-21 18:18:14,526 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: Allen Bradley.json
+2024-12-21 18:18:14,543 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: Allen Bradley.json
+2024-12-21 18:18:14,543 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: BL23E33-01D-04RO.json
+2024-12-21 18:18:14,558 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: BL23E33-01D-04RO.json
+2024-12-21 18:18:14,558 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: BR2804-1700kv.json
+2024-12-21 18:18:14,574 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: BR2804-1700kv.json
+2024-12-21 18:18:14,574 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: GBM2804H-100T.json
+2024-12-21 18:18:14,599 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: GBM2804H-100T.json
+2024-12-21 18:18:14,599 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: motorHighVoltage.json
+2024-12-21 18:18:14,611 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: motorHighVoltage.json
+2024-12-21 18:18:14,611 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: motorLowVoltage-I.json
+2024-12-21 18:18:14,626 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: motorLowVoltage-I.json
+2024-12-21 18:18:14,626 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: motorLowVoltage.json
+2024-12-21 18:18:14,646 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: motorLowVoltage.json
+2024-12-21 18:18:14,646 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: motorMaxon.json
+2024-12-21 18:18:14,654 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: motorMaxon.json
+2024-12-21 18:18:14,654 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: motorShinano.json
+2024-12-21 18:18:14,673 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: motorShinano.json
+2024-12-21 18:18:14,673 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: R57BLB50L2.json
+2024-12-21 18:18:14,686 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: R57BLB50L2.json
+2024-12-21 18:18:14,708 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVALSTDRIVE101.json
+2024-12-21 18:18:14,759 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVALSTDRIVE101.json
+2024-12-21 18:18:14,759 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVALSTDRIVE601.json
+2024-12-21 18:18:14,788 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVALSTDRIVE601.json
+2024-12-21 18:18:14,788 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-CTM009V1.json
+2024-12-21 18:18:14,804 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-CTM009V1.json
+2024-12-21 18:18:14,804 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IHM023V3.json
+2024-12-21 18:18:14,827 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IHM023V3.json
+2024-12-21 18:18:14,827 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IHM045V1.json
+2024-12-21 18:18:14,843 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IHM045V1.json
+2024-12-21 18:18:14,843 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPM05F.json
+2024-12-21 18:18:14,862 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPM05F.json
+2024-12-21 18:18:14,864 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPM07F.json
+2024-12-21 18:18:14,880 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPM07F.json
+2024-12-21 18:18:14,880 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPM08B.json
+2024-12-21 18:18:14,895 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPM08B.json
+2024-12-21 18:18:14,895 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPM10B.json
+2024-12-21 18:18:14,918 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPM10B.json
+2024-12-21 18:18:14,918 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPM10F.json
+2024-12-21 18:18:14,954 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPM10F.json
+2024-12-21 18:18:14,954 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPM15B.json
+2024-12-21 18:18:14,966 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPM15B.json
+2024-12-21 18:18:14,966 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPM20B.json
+2024-12-21 18:18:14,990 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPM20B.json
+2024-12-21 18:18:14,990 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPM30B.json
+2024-12-21 18:18:15,000 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPM30B.json
+2024-12-21 18:18:15,000 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMM10B.json
+2024-12-21 18:18:15,014 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMM10B.json
+2024-12-21 18:18:15,014 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMM15B.json
+2024-12-21 18:18:15,029 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMM15B.json
+2024-12-21 18:18:15,029 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNG3Q.json
+2024-12-21 18:18:15,056 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNG3Q.json
+2024-12-21 18:18:15,056 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNG3S.json
+2024-12-21 18:18:15,073 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNG3S.json
+2024-12-21 18:18:15,073 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNG5Q.json
+2024-12-21 18:18:15,090 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNG5Q.json
+2024-12-21 18:18:15,090 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNG8Q.json
+2024-12-21 18:18:15,103 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNG8Q.json
+2024-12-21 18:18:15,103 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNM1N.json
+2024-12-21 18:18:15,120 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNM1N.json
+2024-12-21 18:18:15,120 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNM1S.json
+2024-12-21 18:18:15,132 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNM1S.json
+2024-12-21 18:18:15,132 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNM2N.json
+2024-12-21 18:18:15,145 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNM2N.json
+2024-12-21 18:18:15,145 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNM2S.json
+2024-12-21 18:18:15,173 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNM2S.json
+2024-12-21 18:18:15,173 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNM3Q.json
+2024-12-21 18:18:15,180 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNM3Q.json
+2024-12-21 18:18:15,180 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IPMNM5Q.json
+2024-12-21 18:18:15,208 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IPMNM5Q.json
+2024-12-21 18:18:15,208 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-LVLP01.json
+2024-12-21 18:18:15,224 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-LVLP01.json
+2024-12-21 18:18:15,224 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: X-NUCLEO-IHM07M1.json
+2024-12-21 18:18:15,242 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: X-NUCLEO-IHM07M1.json
+2024-12-21 18:18:15,242 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: X-NUCLEO-IHM08M1.json
+2024-12-21 18:18:15,251 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: X-NUCLEO-IHM08M1.json
+2024-12-21 18:18:15,251 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: X-NUCLEO-IHM11M1.json
+2024-12-21 18:18:15,257 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: X-NUCLEO-IHM11M1.json
+2024-12-21 18:18:15,257 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: X-NUCLEO-IHM16M1.json
+2024-12-21 18:18:15,276 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: X-NUCLEO-IHM16M1.json
+2024-12-21 18:18:15,276 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: X-NUCLEO-IHM17M1.json
+2024-12-21 18:18:15,291 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: X-NUCLEO-IHM17M1.json
+2024-12-21 18:18:15,291 INFO  [APIHelpers.getFamilyHardwareUserData] WB6 API: Start loading power from: C:\Users\thann\.st_workbench\hardware\board\power
+2024-12-21 18:18:15,291 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: B-G431B-ESC1.json
+2024-12-21 18:18:15,313 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: B-G431B-ESC1.json
+2024-12-21 18:18:15,313 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVLDRIVE101-HPD.json
+2024-12-21 18:18:15,344 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVLDRIVE101-HPD.json
+2024-12-21 18:18:15,351 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVLPWD-FAN-PUMP.json
+2024-12-21 18:18:15,375 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVLPWD-FAN-PUMP.json
+2024-12-21 18:18:15,375 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVLSERVO1.json
+2024-12-21 18:18:15,426 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVLSERVO1.json
+2024-12-21 18:18:15,443 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVLSPIN32G0A1.json
+2024-12-21 18:18:15,457 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVLSPIN32G0A1.json
+2024-12-21 18:18:15,457 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVLSPIN32G0A2.json
+2024-12-21 18:18:15,492 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVLSPIN32G0A2.json
+2024-12-21 18:18:15,492 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVLSPIN32G0B1.json
+2024-12-21 18:18:15,555 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVLSPIN32G0B1.json
+2024-12-21 18:18:15,556 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVLSPIN32G0B2.json
+2024-12-21 18:18:15,571 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVLSPIN32G0B2.json
+2024-12-21 18:18:15,571 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVLSPIN32G4-ACT.json
+2024-12-21 18:18:15,596 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVLSPIN32G4-ACT.json
+2024-12-21 18:18:15,596 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32F0251S1.json
+2024-12-21 18:18:15,636 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32F0251S1.json
+2024-12-21 18:18:15,636 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32F02Q1S1.json
+2024-12-21 18:18:15,687 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32F02Q1S1.json
+2024-12-21 18:18:15,687 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32F0601S1.json
+2024-12-21 18:18:15,701 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32F0601S1.json
+2024-12-21 18:18:15,701 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32F0601S3.json
+2024-12-21 18:18:15,717 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32F0601S3.json
+2024-12-21 18:18:15,717 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32F0602S1.json
+2024-12-21 18:18:15,744 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32F0602S1.json
+2024-12-21 18:18:15,749 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32F06Q1S1.json
+2024-12-21 18:18:15,764 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32F06Q1S1.json
+2024-12-21 18:18:15,764 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32F06Q1S3.json
+2024-12-21 18:18:15,785 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32F06Q1S3.json
+2024-12-21 18:18:15,785 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32F06Q2S1.json
+2024-12-21 18:18:15,805 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32F06Q2S1.json
+2024-12-21 18:18:15,805 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32G02Q1S1.json
+2024-12-21 18:18:15,832 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32G02Q1S1.json
+2024-12-21 18:18:15,832 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32G06Q1S1.json
+2024-12-21 18:18:15,846 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32G06Q1S1.json
+2024-12-21 18:18:15,846 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32G06Q1S3.json
+2024-12-21 18:18:15,864 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32G06Q1S3.json
+2024-12-21 18:18:15,867 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32G06Q2S1.json
+2024-12-21 18:18:15,877 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32G06Q2S1.json
+2024-12-21 18:18:15,877 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32G4-DUAL.json
+2024-12-21 18:18:15,887 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32G4-DUAL.json
+2024-12-21 18:18:15,891 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: EVSPIN32G4.json
+2024-12-21 18:18:15,909 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: EVSPIN32G4.json
+2024-12-21 18:18:15,909 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-CTM010V1.json
+2024-12-21 18:18:15,923 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-CTM010V1.json
+2024-12-21 18:18:15,923 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-CTM011v1.json
+2024-12-21 18:18:15,931 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-CTM011v1.json
+2024-12-21 18:18:15,931 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-CTM012v1.json
+2024-12-21 18:18:15,943 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-CTM012v1.json
+2024-12-21 18:18:15,944 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-ESC001V1.json
+2024-12-21 18:18:15,954 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-ESC001V1.json
+2024-12-21 18:18:15,954 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IHM042V1.json
+2024-12-21 18:18:15,972 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IHM042V1.json
+2024-12-21 18:18:15,972 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-PTOOL4A.json
+2024-12-21 18:18:15,985 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-PTOOL4A.json
+2024-12-21 18:18:15,985 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-SPIN3201.json
+2024-12-21 18:18:15,992 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-SPIN3201.json
+2024-12-21 18:18:15,992 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-SPIN3202.json
+2024-12-21 18:18:16,013 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-SPIN3202.json
+2024-12-21 18:18:16,013 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-SPIN3204.json
+2024-12-21 18:18:16,034 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-SPIN3204.json
+2024-12-21 18:18:16,034 INFO  [APIHelpers.getFamilyHardwareUserData] WB6 API: Start loading inverter from: C:\Users\thann\.st_workbench\hardware\board\inverter
+2024-12-21 18:18:16,034 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: X-NUCLEO-IHM09M1.json
+2024-12-21 18:18:16,059 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: X-NUCLEO-IHM09M1.json
+2024-12-21 18:18:16,059 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: X-NUCLEO-IHM09M2.json
+2024-12-21 18:18:16,075 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: X-NUCLEO-IHM09M2.json
+2024-12-21 18:18:16,075 INFO  [APIHelpers.getFamilyHardwareUserData] WB6 API: Start loading adapter from: C:\Users\thann\.st_workbench\hardware\board\adapter
+2024-12-21 18:18:16,075 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: B-G473E-ZEST1S.json
+2024-12-21 18:18:16,102 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: B-G473E-ZEST1S.json
+2024-12-21 18:18:16,102 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-C031C6.json
+2024-12-21 18:18:16,118 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-C031C6.json
+2024-12-21 18:18:16,118 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-F030R8.json
+2024-12-21 18:18:16,131 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-F030R8.json
+2024-12-21 18:18:16,131 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-F072RB.json
+2024-12-21 18:18:16,140 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-F072RB.json
+2024-12-21 18:18:16,140 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-F302R8.json
+2024-12-21 18:18:16,146 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-F302R8.json
+2024-12-21 18:18:16,146 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-F303RE.json
+2024-12-21 18:18:16,160 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-F303RE.json
+2024-12-21 18:18:16,160 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-F401RE.json
+2024-12-21 18:18:16,179 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-F401RE.json
+2024-12-21 18:18:16,179 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-F446RE.json
+2024-12-21 18:18:16,187 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-F446RE.json
+2024-12-21 18:18:16,187 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-F746ZG.json
+2024-12-21 18:18:16,187 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-F746ZG.json
+2024-12-21 18:18:16,203 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-F756ZG.json
+2024-12-21 18:18:16,215 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-F756ZG.json
+2024-12-21 18:18:16,219 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-G071RB.json
+2024-12-21 18:18:16,222 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-G071RB.json
+2024-12-21 18:18:16,232 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-G431RB.json
+2024-12-21 18:18:16,244 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-G431RB.json
+2024-12-21 18:18:16,244 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-G474RE.json
+2024-12-21 18:18:16,267 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-G474RE.json
+2024-12-21 18:18:16,267 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-H503RB.json
+2024-12-21 18:18:16,267 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-H503RB.json
+2024-12-21 18:18:16,267 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-H563ZI.json
+2024-12-21 18:18:16,282 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-H563ZI.json
+2024-12-21 18:18:16,282 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-H745ZI-Q.json
+2024-12-21 18:18:16,298 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-H745ZI-Q.json
+2024-12-21 18:18:16,298 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-H755ZI-Q.json
+2024-12-21 18:18:16,315 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-H755ZI-Q.json
+2024-12-21 18:18:16,315 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-L452RE.json
+2024-12-21 18:18:16,332 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-L452RE.json
+2024-12-21 18:18:16,332 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: NUCLEO-L476RG.json
+2024-12-21 18:18:16,347 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: NUCLEO-L476RG.json
+2024-12-21 18:18:16,347 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STEVAL-IHM039V1.json
+2024-12-21 18:18:16,354 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STEVAL-IHM039V1.json
+2024-12-21 18:18:16,354 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STM32303E-EVAL.json
+2024-12-21 18:18:16,369 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STM32303E-EVAL.json
+2024-12-21 18:18:16,369 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STM32F769I-EVAL.json
+2024-12-21 18:18:16,385 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STM32F769I-EVAL.json
+2024-12-21 18:18:16,385 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STM32G081B-EVAL.json
+2024-12-21 18:18:16,395 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STM32G081B-EVAL.json
+2024-12-21 18:18:16,395 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STM32G0C1E-EV.json
+2024-12-21 18:18:16,411 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STM32G0C1E-EV.json
+2024-12-21 18:18:16,411 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STM32G474E-EVAL.json
+2024-12-21 18:18:16,424 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STM32G474E-EVAL.json
+2024-12-21 18:18:16,424 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: STM32L476G-EVAL.json
+2024-12-21 18:18:16,445 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: STM32L476G-EVAL.json
+2024-12-21 18:18:16,445 INFO  [APIHelpers.getFamilyHardwareUserData] WB6 API: Start loading control from: C:\Users\thann\.st_workbench\hardware\board\control
+2024-12-21 18:18:16,445 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: P-NUCLEO-IHM002.json
+2024-12-21 18:18:16,471 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: P-NUCLEO-IHM002.json
+2024-12-21 18:18:16,471 INFO  [APIHelpers.load_json_hw] WB6 API: loading assets Hardware: P-NUCLEO-IHM03.json
+2024-12-21 18:18:16,493 INFO  [APIHelpers.lambda$load_json_hw$6] WB6 API: successfully parsed assets Hardware: P-NUCLEO-IHM03.json
+2024-12-21 18:18:16,493 INFO  [APIHelpers.getFamilyHardwareUserData] WB6 API: Start loading kit from: C:\Users\thann\.st_workbench\hardware\board\kit
+2024-12-21 18:18:42,853 DEBUG [RetrieveFirmwareVersion.from_zip] Trying to read Firmware version from zipped version Pack: C:\Users\thann\AppData\Local\STMicroelectronics\MC_SDK_6.3.2\Utilities\PC_Software\STMCWB\assets\MotorControlPack\MotorControl.zip
+2024-12-21 18:18:42,861 DEBUG [RetrieveFirmwareVersion.minimum_supporte_version] minimum_supporte_version MotorControlFirmware.Version: 6.3.0
+2024-12-21 18:18:42,861 DEBUG [PackInfoFactory.deploy_MCPack_to_MxRepo] Deployment strategy class: VersionedFolderStyle_MCPackDeployer
+2024-12-21 18:18:42,862 DEBUG [PackInfoFactory.deploy_MCPack_to_MxRepo] Expected MC Pack 6.3.2-Full already deployed
